@@ -1,0 +1,82 @@
+.home-container {
+    background: #000000;
+    min-height: 100vh;
+    padding: 30px;
+    color: white;
+}
+
+.top-bar {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+}
+
+.adicionar-btn {
+    background: #2b2178;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.adicionar-btn:hover {
+    background: #4735c5;
+}
+
+.publicacao-area {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.publicacao-card {
+    background: #5943b8;
+    border-radius: 14px;
+    padding: 25px;
+    width: 75%;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    position: relative;
+    left: 100px;
+}
+
+.publicacao-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.perfil-icon {
+    width: 28px;
+    height: 28px;
+    background: white;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.perfil-name {
+    font-weight: bold;
+}
+
+.publicacao-text {
+    margin-bottom: 15px;
+    line-height: 1.4;
+}
+
+.publicacao-box {
+    background: white;
+    height: 90px;
+    width: 60%;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+
+.publicacao-actions span {
+    margin-right: 12px;
+    cursor: pointer;
+}

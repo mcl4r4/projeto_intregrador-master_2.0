@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background: black;
+}
+
+.esquerdo {
+    width: 60%;
+    background: #1A1A75;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    border-top-right-radius: 150px;
+    border-bottom-right-radius: 150px;
+}
+
+.esquerdo h1 {
+    font-size: 48px;
+    line-height: 1.2;
+}
+
+.direito {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formulario {
+    width: 300px;
+    padding: 30px;
+    border: 2px solid #4c47ff;
+    text-align: center;
+    background: #000000;
+    color: white;
+}
+
+.formulario h2 {
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+
+.formulario input {
+    width: 100%;
+    background: #e6e6e6;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 12px;
+    border: none;
+}
+
+.formulario button {
+    width: 100%;
+    padding: 10px;
+    background: #1A1A75;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.formulario button:hover {
+    opacity: 0.9;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin: 20px 0;
+    font-size: 22px;
+}
+
+.social span {
+    cursor: pointer;
+}
+
+.cadastro {
+    font-size: 14px;
+}
+
+.cadastro a {
+    color: #6A6AFF;
+}
+
+.mensagem {
+    color: #ffce00;
+    margin-top: 10px;
+    font-size: 14px;
+}
