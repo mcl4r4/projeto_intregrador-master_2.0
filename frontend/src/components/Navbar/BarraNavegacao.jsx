@@ -7,11 +7,11 @@ export const BarraNavegacao = () => {
 
       <ul className="sidebar-menu">
         <li className="menu-item"> <a href="/home-freelancer">Freelancers</a></li>
-        <li className="menu-item"><a href="">Demandas</a></li>
+        <li className="menu-item"><a href="/demandas">Demandas</a></li>
         <li className="menu-item"><a href="/perfil-freelancer">Perfil</a></li>
       </ul>
 
-      <button className="logout-btn">Sair</button>
+      <a className="logout-btn" href="/login">Sair</a>
     </aside>
   );
 }

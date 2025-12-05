@@ -31,7 +31,7 @@ export const Cadastro = () => {
         localStorage.setItem("tipo_usuario", tipo);
 
         if (tipo === "freelancer") { navigate("/home-freelancer"); }
-        else { navigate("/home-user"); }
+        else { navigate("/home-empresa"); }
     };
 
     return (

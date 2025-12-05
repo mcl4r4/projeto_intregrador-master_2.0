@@ -1,0 +1,86 @@
+.freelancer-container {
+  background-color: rgba(0, 0, 0, 1);
+  color: #fff;
+  padding: 20px;
+  padding-left: 260px; 
+  font-family: sans-serif;
+  min-height: 100vh;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+
+
+.progress-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+  margin-top: 40px;
+  margin-bottom: 30px;
+  background-color: rgba(117, 102, 217, 0.7);
+  height: 60px;
+  border-radius: 15px;
+  padding: 0 20px;
+ 
+}
+
+.steps {
+  display: flex;
+  gap: 200px; 
+}
+
+.step {
+  font-size: 20px;
+  color: #3b3b4f;
+}
+
+.step.active {
+  color: rgba(37, 91, 255, 1);
+}
+
+.next-button {
+  background-color: rgba(117, 102, 217, 0.7);
+  border: none;
+  padding: 10px 25px;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.comentarios-section {
+  margin-top: 20px;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto; 
+}
+
+.comentarios-form {
+  margin-bottom: 20px;
+}
+
+.comentarios-form h3 {
+  margin-bottom: 10px;
+}
+
+.comentarios-form p {
+  margin-bottom: 10px;
+}
+
+.comentarios-form button {
+  background-color: rgba(117, 102, 217, 0.7);
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+
+  display: block;
+  margin-left: auto;  /* Button alinhado à direita sem quebrar layout */
+}
+
+.comentarios {
+  background-color: rgba(117, 102, 217, 0.7);
+  padding: 15px;
+  border-radius: 15px;
+  margin-bottom: 12px;
+  font-size: 15px;
+}

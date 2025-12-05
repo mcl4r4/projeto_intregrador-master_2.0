@@ -1,5 +1,7 @@
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
+// import { api } from "../../services/api.js";
+// import { saveToken } from "../../util/auth.js"
 import "./login.css";
 
 export const Login = () => {
@@ -16,8 +18,17 @@ export const Login = () => {
         }
     }, [mensagem]);
 
-    const handleSubmit = (e) => {
+    const handleSubmit = async (e) => {
         e.preventDefault();
+
+        // try {
+        //     const response = await api.post("/autenticacao", { email, senha })
+        //     saveToken(response.token)
+        //     navigate('/home-freelancer')
+        // } catch (error) {
+        //     console.log(error)
+        //     alert('Erro no login')
+        // }
 
         if (!email || !senha) {
             setMensagem("Preencha todos os campos.");
@@ -30,7 +41,7 @@ export const Login = () => {
         if (tipo === "freelancer") {
             navigate("/home-freelancer");
         } else {
-            navigate("/home-user");
+            navigate("/home-empresa");
         }
     };
 
@@ -67,10 +78,10 @@ export const Login = () => {
                     {mensagem && <p className="mensagem">{mensagem}</p>}
 
                     <div className="social">
-                        <img src="https://cdn-icons-png.flaticon.com/512/281/281764.png" width="22"/>
-                        <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" width="22"/>
-                        <img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" width="22"/>
-                        <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" width="22"/>
+                        <img src="https://cdn-icons-png.flaticon.com/512/281/281764.png" width="22" />
+                        <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" width="22" />
+                        <img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" width="22" />
+                        <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" width="22" />
                     </div>
 
                     <p className="cadastro">

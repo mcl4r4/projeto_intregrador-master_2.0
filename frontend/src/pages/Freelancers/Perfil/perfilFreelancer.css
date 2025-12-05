@@ -1,0 +1,86 @@
+.perfil-container {
+    background-color: #000;
+    min-height: 100vh;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.conteudo {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 60px;
+    margin-top: 40px;
+}
+
+
+
+.card-perfil {
+    width: 430px;
+    background-color: rgba(117, 102, 217, 0.8);
+    padding: 25px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.icon-perfil {
+    font-size: 90px;
+    margin-bottom: 10px;
+}
+
+.card-perfil h3 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.descricao {
+    text-align: left;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.sidebar-info {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.box {
+    width: 300px;
+    background-color: rgba(117, 102, 217, 0.8);
+    padding: 18px;
+    border-radius: 12px;
+    font-size: 15px;
+}
+
+.box ul {
+    margin-top: 10px;
+    padding-left: 18px;
+}
+
+.box li {
+    margin-bottom: 6px;
+}
+
+
+@media (max-width: 1050px) {
+    .conteudo {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box {
+        width: 380px;
+    }
+}
+
+@media (max-width: 480px) {
+    .card-perfil {
+        width: 90%;
+    }
+
+    .box {
+        width: 90%;
+    }
+}

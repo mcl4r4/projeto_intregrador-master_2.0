@@ -60,6 +60,10 @@
   transition: .2s;
 }
 
+.logout-btn a {
+  color: white;
+}
+
 .logout-btn:hover {
   background: #2e20a5;
   border-radius: 8px;
